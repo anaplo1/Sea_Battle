@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="my.sea.battle.auth.login.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="my.sea.battle.auth.register.RegisterFragment"
+        android:label="RegisterFragment" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="my.sea.battle.game_fragment.GameFragment"
+        android:label="GameFragment" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="my.sea.battle.history.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="my.sea.battle.menu_fragment.MenuFragment"
+        android:label="MenuFragment" />
+</navigation>
